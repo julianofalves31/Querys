@@ -1,0 +1,4 @@
+select qtd,descrição,func_lancou_id,dt_hr_lancamento,func_cancelou_id from venda_item_geral where venda_id= 'B9BCC78F-072D-EB11-90D3-00E0262EA011'
+select * from funcionario
+select * from venda_item_geral where venda_id= 'B9BCC78F-072D-EB11-90D3-00E0262EA011'
+select * from historico_operacao_geral where operacao_id ='B8BCC78F-072D-EB11-90D3-00E0262EA011' order by dt_hora

@@ -1,0 +1,3 @@
+select dt_hr_lancamento, motivo_canc_id, motivo_canc, situacao, qtd, material_descr 
+from vw_venda_item_unificada 
+where dt_hr_lancamento BETWEEN '26-07-2020' and '19-11-2020' or motivo_canc_id = '1' or situacao = 'normal'
